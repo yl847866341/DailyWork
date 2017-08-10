@@ -40,8 +40,10 @@ public class Test {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("You are the right one！");
 		}
+		System.out.println("就是这么任性");
 		System.out.println("It is you who show me the world's beauty.");
-		System.out.println("Tomorrow");
 		System.out.println("Today ");
+		/**这是一个冲突测试*/
+		System.out.println("Nowadays");
 	}
 }
