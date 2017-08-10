@@ -36,9 +36,9 @@ public class Test {
 		System.out.println(s);
 		try {
 			String n2s = new String(s.getBytes("utf-8"), "gbk");
-			System.out.println("ddsgs");
-			System.out.println(n2s + "2b9s ..sdf 2s");
-			
+			System.out.println("sdsf");
+			System.out.println(n2s + "2b9s ssdf..sdf 2s");
+
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
@@ -50,7 +50,7 @@ public class Test {
 		// 下课
 		TeacherDaoImpl.endClazz();
 		TeacherDao teacherDaoImpl = new TeacherDaoImpl();
-		//上课
+		// 上课
 		teacherDaoImpl.StartClazz();
 		System.out.println("Today ");
 		/** 这是一个冲突测试 */
