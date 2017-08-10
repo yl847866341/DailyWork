@@ -10,11 +10,8 @@
     
 package com.jxd.test;
 
-import java.io.File;
 import java.io.UnsupportedEncodingException;
-import java.util.Collection;
 
-import org.apache.tomcat.util.http.fileupload.FileUtils;
 
 /**  
  * 
@@ -33,6 +30,7 @@ public class Test {
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
+		System.out.println("Goals determine what you will be.");
 		System.out.println(s);
 		try {
 			String n2s = new String(s.getBytes("utf-8"),"gbk");
@@ -40,7 +38,9 @@ public class Test {
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
-		
+		for(int i = 0;i < 10;i ++){
+			System.out.println("You are the only one£¡");
+		}
 		
 	}
 }
