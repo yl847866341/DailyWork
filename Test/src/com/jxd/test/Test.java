@@ -39,7 +39,7 @@ public class Test {
 			e.printStackTrace();
 		}
 		for(int i = 0;i < 10;i ++){
-			System.out.println("You are the apple of my eye.");
+			System.out.println("You are the right one£¡");
 		}
 		System.out.println("It is you who show me the world beauty.");
 		System.out.println("Today ");
