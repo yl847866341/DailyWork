@@ -36,8 +36,9 @@ public class Test {
 		System.out.println(s);
 		try {
 			String n2s = new String(s.getBytes("utf-8"), "gbk");
-			System.out.println("ddsgs");
-			System.out.println(n2s + "2b9s ..sdf 2s");
+			System.out.println("sdsf");
+			System.out.println(n2s + "2b9s ssdf..sdf 2s");
+			
 			
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
