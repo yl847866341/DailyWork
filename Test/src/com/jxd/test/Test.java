@@ -47,8 +47,6 @@ public class Test {
 		System.out.println("It is you who show me the world's beauty.");
 		// об©н
 		TeacherDaoImpl.endClazz();
-		// об©н
-		TeacherDaoImpl.endClazz();
 		TeacherDao teacherDaoImpl = new TeacherDaoImpl();
 		//ио©н
 		teacherDaoImpl.StartClazz();
