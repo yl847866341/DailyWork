@@ -12,6 +12,7 @@ package com.jxd.test;
 
 import java.io.UnsupportedEncodingException;
 
+import com.jxd.dao.TeacherDao;
 import com.jxd.dao.impl.TeacherDaoImpl;
 
 /**
@@ -44,8 +45,9 @@ public class Test {
 		}
 		System.out.println("就是这么任性");
 		System.out.println("It is you who show me the world's beauty.");
-		//下课
-		TeacherDaoImpl.endClazz();
+		TeacherDao teacherDaoImpl = new TeacherDaoImpl();
+		//上课
+		teacherDaoImpl.StartClazz();
 		System.out.println("Today ");
 		/**这是一个冲突测试*/
 		System.out.println("Nowadays");
