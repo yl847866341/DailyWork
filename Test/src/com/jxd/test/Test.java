@@ -12,6 +12,7 @@ package com.jxd.test;
 
 import java.io.UnsupportedEncodingException;
 
+import com.jxd.dao.TeacherDao;
 import com.jxd.dao.impl.TeacherDaoImpl;
 
 /**
@@ -26,16 +27,16 @@ public class Test {
 	public static void main(String[] args) {
 		String s = "yuanlin";
 		try {
-			String ns = new String(s.getBytes("gbk"),"utf-8");
-			System.out.println(ns+"-----ss");
+			String ns = new String(s.getBytes("gbk"), "utf-8");
+			System.out.println(ns + "-----ss");
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
 		System.out.println("Goals determine what you will be.");
 		System.out.println(s);
 		try {
-			String n2s = new String(s.getBytes("utf-8"),"gbk");
-			System.out.println(n2s+"-----s2s");
+			String n2s = new String(s.getBytes("utf-8"), "gbk");
+			System.out.println(n2s + "-----s2s");
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
@@ -44,10 +45,15 @@ public class Test {
 		}
 		System.out.println("就是这么任性");
 		System.out.println("It is you who show me the world's beauty.");
-		//下课
+		// 下课
 		TeacherDaoImpl.endClazz();
+		// 下课
+		TeacherDaoImpl.endClazz();
+		TeacherDao teacherDaoImpl = new TeacherDaoImpl();
+		//上课
+		teacherDaoImpl.StartClazz();
 		System.out.println("Today ");
-		/**这是一个冲突测试*/
+		/** 这是一个冲突测试 */
 		System.out.println("Nowadays");
 	}
 }
