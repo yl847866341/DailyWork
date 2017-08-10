@@ -36,7 +36,7 @@ public class Test {
 		System.out.println(s);
 		try {
 			String n2s = new String(s.getBytes("utf-8"), "gbk");
-			System.out.println(n2s + "-----s2s");
+			System.out.println(n2s + "2b9s nier 2s");
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
