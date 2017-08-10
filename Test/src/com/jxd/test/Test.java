@@ -41,7 +41,8 @@ public class Test {
 			System.out.println("You are the right one！");
 		}
 		System.out.println("It is you who show me the world's beauty.");
-		System.out.println("Tomorrow");
 		System.out.println("Today ");
+		/**这是一个冲突测试*/
+		System.out.println("Nowadays");
 	}
 }
