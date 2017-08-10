@@ -23,7 +23,7 @@ import java.io.UnsupportedEncodingException;
 
 public class Test {
 	public static void main(String[] args) {
-		String s = "‘¨¡÷";
+		String s = "yuanlin";
 		try {
 			String ns = new String(s.getBytes("gbk"),"utf-8");
 			System.out.println(ns+"::::ss");
@@ -39,8 +39,9 @@ public class Test {
 			e.printStackTrace();
 		}
 		for(int i = 0;i < 10;i ++){
-			System.out.println("You are the only one£°");
+			System.out.println("You are the apple of my eye.");
 		}
-		
+		System.out.println("It is you who show me the world beauty.");
+		System.out.println("Today ");
 	}
 }
