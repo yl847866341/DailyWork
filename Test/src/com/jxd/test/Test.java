@@ -39,8 +39,8 @@ public class Test {
 			e.printStackTrace();
 		}
 		for(int i = 0;i < 10;i ++){
-			System.out.println("You are the only one£¡");
+			System.out.println("You are the right one£¡");
 		}
-		
+		System.out.println("It is you who show me the world beauty.");
 	}
 }
