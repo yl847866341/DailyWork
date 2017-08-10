@@ -46,7 +46,7 @@ public class Test {
 			System.out.println("You are the right one！");
 		}
 		System.out.println("就是这么任性");
-		System.out.println("It is Lily who shows me the world's beauty.");
+		System.out.println("It is Diva who shows me the world's beauty.");
 		// 下课
 		TeacherDaoImpl.endClazz();
 		TeacherDao teacherDaoImpl = new TeacherDaoImpl();
