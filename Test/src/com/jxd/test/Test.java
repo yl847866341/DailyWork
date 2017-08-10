@@ -26,20 +26,20 @@ import org.apache.tomcat.util.http.fileupload.FileUtils;
 
 public class Test {
 	public static void main(String[] args) {
-//		String s = "т╛аж";
-//		try {
-//			String ns = new String(s.getBytes("gbk"),"utf-8");
-//			System.out.println(ns+"::::ss");
-//		} catch (UnsupportedEncodingException e) {
-//			e.printStackTrace();
-//		}
-//		System.out.println(s);
-//		try {
-//			String n2s = new String(s.getBytes("utf-8"),"gbk");
-//			System.out.println(n2s+"::::s2s");
-//		} catch (UnsupportedEncodingException e) {
-//			e.printStackTrace();
-//		}
+		String s = "т╛аж";
+		try {
+			String ns = new String(s.getBytes("gbk"),"utf-8");
+			System.out.println(ns+"::::ss");
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+		System.out.println(s);
+		try {
+			String n2s = new String(s.getBytes("utf-8"),"gbk");
+			System.out.println(n2s+"::::s2s");
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
 		
 		
 	}
