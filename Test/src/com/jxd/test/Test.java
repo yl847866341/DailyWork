@@ -54,6 +54,6 @@ public class Test {
 		teacherDaoImpl.StartClazz();
 		System.out.println("Today ");
 		/** 这是一个冲突测试 */
-		System.out.println("many years");
+		System.out.println("Nowadays we have many changes");
 	}
 }
