@@ -24,16 +24,16 @@ public class Test {
 	public static void main(String[] args) {
 		String s = "yuanlin";
 		try {
-			String ns = new String(s.getBytes("gbk"), "utf-8");
-			System.out.println(ns + "::::ss");
+			String ns = new String(s.getBytes("gbk"),"utf-8");
+			System.out.println(ns+"-----ss");
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
 		System.out.println("Goals determine what you will be.");
 		System.out.println(s);
 		try {
-			String n2s = new String(s.getBytes("utf-8"), "gbk");
-			System.out.println(n2s + "::::s2s");
+			String n2s = new String(s.getBytes("utf-8"),"gbk");
+			System.out.println(n2s+"-----s2s");
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
@@ -42,5 +42,6 @@ public class Test {
 		}
 		System.out.println("It is you who show me the world's beauty.");
 		System.out.println("Tomorrow");
+		System.out.println("Today ");
 	}
 }
