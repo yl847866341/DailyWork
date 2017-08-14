@@ -45,8 +45,7 @@ public class Test {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("You are the right one！");
 		}
-		System.out.println("就是这么任性");
-		System.out.println("It is Diva who shows me the world's beauty.");
+		System.out.println("It is Lily who shows me the world's beauty.");
 		// 下课
 		TeacherDaoImpl.endClazz();
 		TeacherDao teacherDaoImpl = new TeacherDaoImpl();
@@ -55,5 +54,7 @@ public class Test {
 		System.out.println("Today ");
 		/** 这是一个冲突测试 */
 		System.out.println("Nowadays we have many changes");
+		System.out.println("something new");
+		System.out.println("提交到新分支");
 	}
 }
