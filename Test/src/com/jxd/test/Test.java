@@ -56,6 +56,5 @@ public class Test {
 		System.out.println("Nowadays we have many changes");
 		System.out.println("something new");
 		System.out.println("提交到新分支");
-		System.out.println("测试1");
 	}
 }
